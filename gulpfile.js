@@ -1,7 +1,6 @@
 var gulp = require('gulp');
 var webserver = require('gulp-webserver');
 var stylus = require('gulp-stylus');
-var rename = require('gulp-rename');
 
 gulp.task('lab', function(){
   console.log("Hola");
