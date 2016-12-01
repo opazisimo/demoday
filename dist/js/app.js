@@ -1,7 +1,7 @@
 var template= '<div class="col s12 m12">'+
 				   '<div class="card horizontal">'+
 					   '<div class="card-image">'+
-					   	'<img src="http://lorempixel.com/100/190/nature/6">'+
+					   	'<img src="{{imagen}}">'+
 				       '</div>'+
 					    '<div class="card-stacked">'+
 						    '<div class="card-content">'+
@@ -11,11 +11,22 @@ var template= '<div class="col s12 m12">'+
 							    '<p><b>Sede:</b> <span>{{sede}}</span></p>'+
 						    '</div>'+
 						    '<div class="card-action">'+
-						    	'<a href="#"><b>Calificar</b> <i class="tiny material-icons">star</i></a>'+
+						    	'<a href="perfil.html" id="enlace"><b>Calificar</b> <i class="tiny material-icons">star</i></a>'+
 						    '</div>'+
 					    '</div>'+
 				    '</div>'+
 			   '</div>';
+
+var guardarDirigir= function(){
+	var informacion= $(this).prev().html();
+	var src= $(this).parent().prev().children().attr("src");
+	localStorage.setItem("informacion", informacion);
+	localStorage.setItem("src", src);
+	window.location= "perfil.html";
+}
+
+var infoAlumna= localStorage.getItem("informacion");
+var srcAlumna= localStorage.getItem("src");
 
 $(document).ready(function(){
 	$.get("http://localhost:8000/info.json", function(response){
@@ -25,7 +36,8 @@ $(document).ready(function(){
 							.replace("{{nombre}}", estudiante.nombre)
 							.replace("{{edad}}", estudiante.edad)
 							.replace("{{nacionalidad}}", estudiante.nacionalidad)
-							.replace("{{sede}}", estudiante.sede);
+							.replace("{{sede}}", estudiante.sede)
+              .replace("{{imagen}}", estudiante.foto);
 		});
 		$("#contenedor").html(templateEstud);
 	});
@@ -37,5 +49,16 @@ $(document).ready(function(){
       draggable: true // Choose whether you can drag to open on touch screens
     }
   );
+  $("#contenedor").on("click", ".card-action", guardarDirigir);
+  $("#foto").attr("src", srcAlumna);
+  $("#informacion").html(infoAlumna);
+});
 
+$(function() {
+	$(".ratyli").ratyli();
+	$("#demo5 .ratyli").ratyli({
+		full:'<i class="small material-icons">star</i>',
+		empty:'<i class="small material-icons">star</i>',
+
+	});
 });
