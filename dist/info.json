@@ -1,3 +1,56 @@
-{
-  "hola": "chao"
-}
+[
+    {
+        "nombre": "Daniela",
+        "apellido": "Mora",
+        "edad": "26 años",
+        "foto": "img/perfil.jpg"       
+    },
+    {
+        "nombre": "Karen",
+        "apellido": "Orozco",
+        "edad": "27 años",
+        "foto": "img/perfil.jpg"
+    },
+    {
+        "nombre": "Diana",
+        "apellido": "Navarro",
+        "edad": "19 años",
+        "foto": "img/perfil.jpg"
+    },
+    {
+        "nombre": "Paola",
+        "apellido": "Ortiz",
+        "edad": "25 años",
+        "foto": "img/perfil.jpg"
+    },
+    {
+        "nombre": "Maryori",
+        "apellido": "Quiroz",
+        "edad": "19 años",
+        "foto": "img/perfil.jpg"
+    },
+    {
+        "nombre": "Susana",
+        "apellido": "Opazo",
+        "edad": "25 años",
+        "foto": "img/perfil.jpg"
+    },
+    {
+        "nombre": "Alexandra",
+        "apellido": "Neira",
+        "edad": "18 años",
+        "foto": "img/perfil.jpg"
+    },
+    {
+        "nombre": "Elisa",
+        "apellido": "Martinez",
+        "edad": "25 años",
+        "foto": "img/perfil.jpg"
+    },
+    {
+        "nombre": "Maciel",
+        "apellido": "Porraz",
+        "edad": "27 años",
+        "foto": "img/perfil.jpg"
+    }
+]
