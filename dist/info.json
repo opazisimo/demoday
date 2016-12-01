@@ -2,7 +2,7 @@
     {
         "nombre": "Daniela Mora",
         "edad": "26 años",
-        "foto": "img/perfil.jpg",
+        "foto": "img/girls/dana.jpg",
         "nacionalidad": "Chilena",
         "sede": "Chile"
     },
@@ -11,7 +11,7 @@
         "edad": "27 años",
         "foto": "img/girls/karen.jpg",
         "nacionalidad": "Mexicana",
-        "sede": "Mexico"
+        "sede": "México"
     },
     {
         "nombre": "Diana Navarro",
@@ -30,7 +30,7 @@
     {
         "nombre": "Maryori Quiroz",
         "edad": "19 años",
-        "foto": "img/perfil.jpg",
+        "foto": "img/girls/maryori.jpg",
         "nacionalidad": "Peruana",
         "sede": "Perú"
     },
@@ -53,13 +53,13 @@
         "edad": "25 años",
         "foto": "img/girls/elisa.jpg",
         "nacionalidad": "Mexicana",
-        "sede": "Mexico"
+        "sede": "México"
     },
     {
         "nombre": "Maciel Porraz",
         "edad": "27 años",
         "foto": "img/girls/maciel.jpeg",
         "nacionalidad": "Mexicana",
-        "sede": "Mexico"
+        "sede": "México"
     }
 ]

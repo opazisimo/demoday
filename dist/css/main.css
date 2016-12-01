@@ -1,5 +1,12 @@
 .logolaboratoria {
   max-width: 150px;
+  margin-top: 20px;
+}
+.atras {
+  color: #f9a91a;
+}
+.atras .fa-chevron-left {
+  font-size: 30px;
 }
 .col #perfil {
   height: 120px;
