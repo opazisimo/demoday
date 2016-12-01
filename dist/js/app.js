@@ -1,7 +1,7 @@
 var template= '<div class="col s12 m12">'+
 				   '<div class="card horizontal">'+
 					   '<div class="card-image">'+
-					   	'<img src="http://lorempixel.com/100/190/nature/6">'+
+					   	'<img src="{{imagen}}">'+
 				       '</div>'+
 					    '<div class="card-stacked">'+
 						    '<div class="card-content">'+
@@ -36,7 +36,8 @@ $(document).ready(function(){
 							.replace("{{nombre}}", estudiante.nombre)
 							.replace("{{edad}}", estudiante.edad)
 							.replace("{{nacionalidad}}", estudiante.nacionalidad)
-							.replace("{{sede}}", estudiante.sede);
+							.replace("{{sede}}", estudiante.sede)
+              .replace("{{imagen}}", estudiante.foto);
 		});
 		$("#contenedor").html(templateEstud);
 	});

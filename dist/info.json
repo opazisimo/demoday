@@ -9,21 +9,21 @@
     {
         "nombre": "Karen Orozco",
         "edad": "27 años",
-        "foto": "img/perfil.jpg",
+        "foto": "img/girls/karen.jpg",
         "nacionalidad": "Mexicana",
         "sede": "Mexico"
     },
     {
         "nombre": "Diana Navarro",
         "edad": "19 años",
-        "foto": "img/perfil.jpg",
+        "foto": "img/girls/diana.jpg",
         "nacionalidad": "Peruana",
         "sede": "Perú"
     },
     {
         "nombre": "Paola Ortiz",
         "edad": "25 años",
-        "foto": "img/perfil.jpg",
+        "foto": "img/girls/paola.jpeg",
         "nacionalidad": "Peruana",
         "sede": "Perú"
     },
@@ -37,28 +37,28 @@
     {
         "nombre": "Susana Opazo",
         "edad": "25 años",
-        "foto": "img/perfil.jpg",
+        "foto": "img/girls/su.jpg",
         "nacionalidad": "Chilena",
         "sede": "Chile"
     },
     {
         "nombre": "Alexandra Neira",
         "edad": "18 años",
-        "foto": "img/perfil.jpg",
+        "foto": "img/girls/alexandra.jpeg",
         "nacionalidad": "Chilena",
         "sede": "Chile"
     },
     {
         "nombre": "Elisa Martinez",
         "edad": "25 años",
-        "foto": "img/perfil.jpg",
+        "foto": "img/girls/elisa.jpg",
         "nacionalidad": "Mexicana",
         "sede": "Mexico"
     },
     {
         "nombre": "Maciel Porraz",
         "edad": "27 años",
-        "foto": "img/perfil.jpg",
+        "foto": "img/girls/maciel.jpeg",
         "nacionalidad": "Mexicana",
         "sede": "Mexico"
     }
