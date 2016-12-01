@@ -29,7 +29,7 @@ var infoAlumna= localStorage.getItem("informacion");
 var srcAlumna= localStorage.getItem("src");
 
 $(document).ready(function(){
-	$.get("http://localhost:8000/info.json", function(response){
+	$.get("/info.json", function(response){
 		var templateEstud= "";
 		$.each(response, function(i, estudiante){
 			templateEstud += template
