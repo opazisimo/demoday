@@ -27,3 +27,16 @@ nav {
 .bg-header i {
   color: #f9a91a;
 }
+.collapsible-body {
+  padding: 20px;
+}
+.collapsible-body .question {
+  margin: 10px 0px;
+  border: 1px solid #f9a91a;
+  padding: 5px;
+  color: #3e3f40;
+  text-align: center;
+}
+.collapsible-body .question .small {
+  color: #3e3f40;
+}
