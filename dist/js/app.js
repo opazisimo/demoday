@@ -5,12 +5,12 @@ var template= '<div class="col s12 m12">'+
 				       '</div>'+
 					    '<div class="card-stacked">'+
 						    '<div class="card-content">'+
-							    '<p>Nombre : <span id="nombre">{{nombre}}</span></p>'+
-							    '<p>Edad : <span id="edad">{{edad}}</span></p>'+
-							    '<p>Nacionalidad : <span id="nacionalidad">{{nacionalidad}}</span></p>'+
+							    '<p><b>Nombre:</b> <span id="nombre">{{nombre}}</span></p>'+
+							    '<p><b>Edad:</b> <span id="edad">{{edad}}</span></p>'+
+							    '<p><b>Nacionalidad:</b> <span id="nacionalidad">{{nacionalidad}}</span></p>'+
 						    '</div>'+
 						    '<div class="card-action">'+
-						    	'<a href="#">This is a link</a>'+
+						    	'<a href="#"><b>Calificar</b> <i class="tiny material-icons">star</i></a>'+
 						    '</div>'+
 					    '</div>'+
 				    '</div>'+
