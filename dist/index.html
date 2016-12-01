@@ -1,10 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta charset="UTF-8">
   <title>asd</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<style>
+		body{
+			background-color: #3E3F40;
+		}
+    .logs {
+      max-width: 200px;
+    }
+		.logo{
+      margin-top: 30vh;
+			color: #F9A91A;
+		}
+    .title {
+      margin-top: 15vh;
+    }
+    .entero {
+      max-width: 200px;
+    }
+		@keyframes logo-animation {
+		  0% {
+		    opacity: 100%;
+		  }
+		  100% {
+		    opacity: 0;
+		    visibility: hidden;
+		  }
+		}
+		.logo2{
+			animation: logo-animation 2200ms 1300ms;
+		}
+	</style>
 </head>
 <body>
-  <h1 class="uno">hola2_3</h1>
+  <div class="container">
+		<div class="logo center-align">
+      <img class="logs center-align" src="img/logolab.png" alt="logo">
+      <h1 class="title">
+        Demo Day
+      </h1>
+      <img src="img/logolaboratoria.png" alt="logo" class="entero">
+  	</div>
+  </div>
+
+  <script
+		  src="http://code.jquery.com/jquery-2.2.4.min.js"
+		  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+		  crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+	<script src="js/inicio.js"></script>
 </body>
 </html>
