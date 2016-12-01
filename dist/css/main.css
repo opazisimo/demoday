@@ -1,6 +1,9 @@
 .uno {
   color: #f9a91a;
 }
+.col #perfil {
+  height: 120px;
+}
 .col .card {
   height: 168px;
   padding: 5px;
