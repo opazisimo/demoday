@@ -1,12 +1,13 @@
 .logolaboratoria {
   max-width: 150px;
-  margin-top: 20px;
+  margin-top: 13px;
 }
 .atras {
   color: #f9a91a;
 }
 .atras .fa-chevron-left {
   font-size: 30px;
+  margin-top: 13px;
 }
 .bg-gray {
   background-color: #3e3f40;
@@ -111,10 +112,12 @@ nav {
 .bg-header {
   background-color: #3e3f40;
   color: #fff;
-  border: none;
+  border: 2px solid #ddd;
+  padding: 13px 1rem;
 }
 .bg-header i {
   color: #f9a91a;
+  font-size: 2rem;
 }
 .collapsible-body {
   padding: 20px;
@@ -128,4 +131,8 @@ nav {
 }
 .collapsible-body .question .small {
   color: #3e3f40;
+}
+.collapsible-header {
+  font-size: 1.08rem;
+  padding-top: 2%;
 }
