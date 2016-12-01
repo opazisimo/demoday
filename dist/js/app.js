@@ -5,10 +5,9 @@ var template= '<div class="col s12 m12">'+
 				       '</div>'+
 					    '<div class="card-stacked">'+
 						    '<div class="card-content">'+
-							    '<p><b>Nombre:</b> <span>{{nombre}}</span></p>'+
-							    '<p><b>Edad:</b> <span>{{edad}}</span></p>'+
-							    '<p><b>Nacionalidad:</b> <span>{{nacionalidad}}</span></p>'+
-							    '<p><b>Sede:</b> <span>{{sede}}</span></p>'+
+							    '<p><b>Nombre:</b> <span id="nombre">{{nombre}}</span></p>'+
+							    '<p><b>Edad:</b> <span id="edad">{{edad}}</span></p>'+
+							    '<p><b>Nacionalidad:</b> <span id="nacionalidad">{{nacionalidad}}</span></p>'+
 						    '</div>'+
 						    '<div class="card-action">'+
 						    	'<a href="#"><b>Calificar</b> <i class="tiny material-icons">star</i></a>'+
@@ -24,8 +23,7 @@ $(document).ready(function(){
 			templateEstud += template
 							.replace("{{nombre}}", estudiante.nombre)
 							.replace("{{edad}}", estudiante.edad)
-							.replace("{{nacionalidad}}", estudiante.nacionalidad)
-							.replace("{{sede}}", estudiante.sede);
+							.replace("{{nacionalidad}}", estudiante.nacionalidad);
 		});
 		$("#contenedor").html(templateEstud);
 	});
