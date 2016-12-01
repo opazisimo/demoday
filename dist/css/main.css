@@ -27,6 +27,22 @@
 .col .card .card-action {
   padding: 10px 20px;
 }
+.collapsible-body p {
+  padding: 1rem;
+}
+.ratyli .rate {
+  color: #ccc;
+  font-size: 47px;
+}
+.ratyli .rate .rate-empty {
+  color: #666;
+}
+.ratyli .rate .rate-active {
+  color: #a94039;
+}
+.ratyli.rated .rate-full {
+  color: #f9a91a;
+}
 nav {
   background-color: #3e3f40;
 }

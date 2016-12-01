@@ -52,3 +52,12 @@ $(document).ready(function(){
   $("#foto").attr("src", srcAlumna);
   $("#informacion").html(infoAlumna);
 });
+
+$(function() {
+	$(".ratyli").ratyli();
+	$("#demo5 .ratyli").ratyli({
+		full:'<i class="small material-icons">star</i>',
+		empty:'<i class="small material-icons">star</i>',
+
+	});
+});
