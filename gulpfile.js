@@ -1,9 +1,7 @@
 var gulp = require('gulp');
 var webserver = require('gulp-webserver');
-
-gulp.task('default', function(){
-  //code
-});
+var stylus = require('gulp-stylus');
+var rename = require('gulp-rename');
 
 gulp.task('lab', function(){
   console.log("Hola");
@@ -17,4 +15,14 @@ gulp.task('webserver', function() {
       directoryListing: false,
       open: true
     }));
+});
+
+gulp.task('styles', function () {
+  return gulp.src('./src/stylus/main.styl')
+    .pipe(stylus())
+    .pipe(gulp.dest('./dist/css'));
+})
+
+gulp.task('default', function(){
+  //code
 });
