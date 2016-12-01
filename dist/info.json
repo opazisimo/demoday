@@ -1,56 +1,56 @@
 [
     {
-        "nombre": "Daniela",
-        "apellido": "Mora",
+        "nombre": "Daniela Mora",
         "edad": "26 años",
-        "foto": "img/perfil.jpg"       
+        "foto": "img/perfil.jpg",
+        "nacionalidad": "Chilena"   
     },
     {
-        "nombre": "Karen",
-        "apellido": "Orozco",
+        "nombre": "Karen Orozco",
         "edad": "27 años",
-        "foto": "img/perfil.jpg"
+        "foto": "img/perfil.jpg",
+        "nacionalidad": "Mexicana" 
     },
     {
-        "nombre": "Diana",
-        "apellido": "Navarro",
+        "nombre": "Diana Navarro",
         "edad": "19 años",
-        "foto": "img/perfil.jpg"
+        "foto": "img/perfil.jpg",
+        "nacionalidad": "Peruana" 
     },
     {
-        "nombre": "Paola",
-        "apellido": "Ortiz",
+        "nombre": "Paola Ortiz",
         "edad": "25 años",
-        "foto": "img/perfil.jpg"
+        "foto": "img/perfil.jpg",
+        "nacionalidad": "Peruana" 
     },
     {
-        "nombre": "Maryori",
-        "apellido": "Quiroz",
+        "nombre": "Maryori Quiroz",
         "edad": "19 años",
-        "foto": "img/perfil.jpg"
+        "foto": "img/perfil.jpg",
+        "nacionalidad": "Peruana" 
     },
     {
-        "nombre": "Susana",
-        "apellido": "Opazo",
+        "nombre": "Susana Opazo",
         "edad": "25 años",
-        "foto": "img/perfil.jpg"
+        "foto": "img/perfil.jpg",
+        "nacionalidad": "Chilena" 
     },
     {
-        "nombre": "Alexandra",
-        "apellido": "Neira",
+        "nombre": "Alexandra Neira",
         "edad": "18 años",
-        "foto": "img/perfil.jpg"
+        "foto": "img/perfil.jpg",
+        "nacionalidad": "Chilena" 
     },
     {
-        "nombre": "Elisa",
-        "apellido": "Martinez",
+        "nombre": "Elisa Martinez",
         "edad": "25 años",
-        "foto": "img/perfil.jpg"
+        "foto": "img/perfil.jpg",
+        "nacionalidad": "Mexicana" 
     },
     {
-        "nombre": "Maciel",
-        "apellido": "Porraz",
+        "nombre": "Maciel Porraz",
         "edad": "27 años",
-        "foto": "img/perfil.jpg"
+        "foto": "img/perfil.jpg",
+        "nacionalidad": "Mexicana" 
     }
 ]

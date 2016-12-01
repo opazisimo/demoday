@@ -19,6 +19,13 @@ var template= '<div class="col s12 m12">'+
 $(document).ready(function(){
 	$.get("http://localhost:8000/info.json", function(response){
 		console.log(response);
-		
+		var templateEstud= "";
+		$.each(response, function(i, estudiante){
+			templateEstud += template
+							.replace("{{nombre}}", estudiante.nombre)
+							.replace("{{edad}}", estudiante.edad)
+							.replace("{{nacionalidad}}", estudiante.nacionalidad);
+		});
+		$("#contenedor").html(templateEstud);
 	});
 });
