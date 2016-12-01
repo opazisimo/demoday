@@ -8,6 +8,61 @@
 .atras .fa-chevron-left {
   font-size: 30px;
 }
+.bg-gray {
+  background-color: #3e3f40;
+}
+.logs {
+  max-width: 200px;
+}
+.logo {
+  margin-top: 30vh;
+  color: #f9a91a;
+}
+.title {
+  margin-top: 15vh;
+}
+.entero {
+  max-width: 200px;
+}
+.logo2 {
+  animation: logo-animation 2200ms 1300ms;
+}
+@-moz-keyframes logo-animation {
+  0% {
+    opacity: 100%;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes logo-animation {
+  0% {
+    opacity: 100%;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+@-o-keyframes logo-animation {
+  0% {
+    opacity: 100%;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+@keyframes logo-animation {
+  0% {
+    opacity: 100%;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
 .col #perfil {
   height: 120px;
 }
