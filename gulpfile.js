@@ -22,6 +22,4 @@ gulp.task('styles', function () {
     .pipe(gulp.dest('./dist/css'));
 })
 
-gulp.task('default', function(){
-  //code
-});
+gulp.task('default', ['styles', 'webserver']);
