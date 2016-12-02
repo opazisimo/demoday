@@ -1,13 +1,22 @@
 .logolaboratoria {
   max-width: 150px;
-  margin-top: 13px;
+  margin-top: 20px;
+}
+@media screen and (max-width: 600px) {
+  .logolaboratoria {
+    margin-top: 13px;
+  }
 }
 .atras {
   color: #f9a91a;
 }
 .atras .fa-chevron-left {
   font-size: 30px;
-  margin-top: 13px;
+}
+@media screen and (max-width: 600px) {
+  .atras .fa-chevron-left {
+    margin-top: 13px;
+  }
 }
 .bg-gray {
   background-color: #3e3f40;
