@@ -1,20 +1,19 @@
-var template= '<div class="col s12 m12">'+
-				   '<div class="card horizontal">'+
-					   '<div class="card-image">'+
-					   	'<img src="{{imagen}}">'+
-				       '</div>'+
-					    '<div class="card-stacked">'+
-						    '<div class="card-content">'+
-							    '<p><b>Nombre:</b> <span>{{nombre}}</span></p>'+
-							    '<p><b>Edad:</b> <span>{{edad}}</span></p>'+
-							    '<p><b>Nacionalidad:</b> <span>{{nacionalidad}}</span></p>'+
-							    '<p><b>Sede:</b> <span>{{sede}}</span></p>'+
-						    '</div>'+
-						    '<div class="card-action">'+
-						    	'<a href="perfil.html" id="enlace"><b>Calificar</b> <i class="tiny material-icons">star</i></a>'+
-						    '</div>'+
-					    '</div>'+
+var template= '<div class="card contiene col s12 m12">'+
+					'<div class="col s5 m3">'+
+					   	'<div class="image">'+
+					   		'<img src="{{imagen}}">'+
+				       	'</div>'+
 				    '</div>'+
+				    '<div class="col s5 m6">'+
+					    '<p class="nomAlum"><span>{{nombre}}</span></p>'+
+					    '<p class="nomEdad"><span>{{edad}}</span></p>'+
+					    '<p class="nomSede"><span>{{sede}}</span></p>'+
+					'</div>'+
+					'<div class="col s2 m3">'+
+						'<div class="vermas">'+
+					    	'<a id="enlace"><i class="fa fa-plus-circle fa-3x ic-color" aria-hidden="true"></i></a>'+
+						'</div>'+
+					'</div>'+
 			   '</div>';
 
 var guardarDirigir= function(){
@@ -49,7 +48,7 @@ $(document).ready(function(){
       draggable: true // Choose whether you can drag to open on touch screens
     }
   );
-  $("#contenedor").on("click", ".card-action", guardarDirigir);
+  $("#contenedor").on("click", ".vermas", guardarDirigir);
   $("#foto").attr("src", srcAlumna);
   $("#informacion").html(infoAlumna);
 });
