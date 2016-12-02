@@ -10,22 +10,16 @@ var template= '<div class="card contiene col s12 m12">'+
 					    '<p class="nomSede"><span>{{sede}}</span></p>'+
 					'</div>'+
 					'<div class="col s2 m3">'+
-						'<div class="vermas">'+
+						'<div class="vermas pointer" data="{{number}}">'+
 					    	'<a id="enlace"><i class="fa fa-plus-circle fa-3x ic-color" aria-hidden="true"></i></a>'+
 						'</div>'+
 					'</div>'+
 			   '</div>';
 
 var guardarDirigir= function(){
-	var informacion= $(this).prev().html();
-	var src= $(this).parent().prev().children().attr("src");
-	localStorage.setItem("informacion", informacion);
-	localStorage.setItem("src", src);
-	window.location= "perfil.html";
-}
-
-var infoAlumna= localStorage.getItem("informacion");
-var srcAlumna= localStorage.getItem("src");
+	var self = $(this).attr("data");
+	window.location.href= "perfil.html" + "?data=" + self;
+};
 
 $(document).ready(function(){
 	$.get("/info.json", function(response){
@@ -36,10 +30,11 @@ $(document).ready(function(){
 							.replace("{{edad}}", estudiante.edad)
 							.replace("{{nacionalidad}}", estudiante.nacionalidad)
 							.replace("{{sede}}", estudiante.sede)
-              .replace("{{imagen}}", estudiante.foto);
-		});
-		$("#contenedor").html(templateEstud);
+							.replace("{{number}}", i+1)
+                            .replace("{{imagen}}", estudiante.foto);
 	});
+	$("#contenedor").html(templateEstud);
+});
 
   $('.button-collapse').sideNav({
       menuWidth: 300, // Default is 240
@@ -49,8 +44,6 @@ $(document).ready(function(){
     }
   );
   $("#contenedor").on("click", ".vermas", guardarDirigir);
-  $("#foto").attr("src", srcAlumna);
-  $("#informacion").html(infoAlumna);
 });
 
 $(function() {
@@ -61,5 +54,3 @@ $(function() {
 
 	});
 });
-// carousel material
-$('.carousel.carousel-slider').carousel({full_width: true});
