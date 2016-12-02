@@ -29,6 +29,7 @@
   color: #f9a91a;
 }
 .title {
+  font-size: 2.2rem;
   margin-top: 15vh;
 }
 .entero {
@@ -76,28 +77,40 @@
 .col #perfil {
   height: 120px;
 }
-.col .card {
-  height: 168px;
-  padding: 5px;
-}
-.col .card .card-image {
-  width: 95px;
-  height: 95px;
-  color: #3e3f40;
-}
-.col .card .card-image img {
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  margin: 5px;
-}
-.col .card .card-content {
+.col .contenido {
   padding: 10px 16px 0px;
   max-heigth: 104px;
   padding: 10px 16px 5px;
 }
-.col .card .card-action {
-  padding: 10px 20px;
+.contiene {
+  padding: 0.75rem;
+  position: relative;
+  margin: 10px 0 0 0;
+}
+.image img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.nomAlum {
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 10%;
+  margin-bottom: 2px;
+}
+.nomEdad,
+.nomSede {
+  margin: 0;
+}
+.vermas {
+  position: absolute;
+  bottom: 20%;
+  margin-bottom: 20px;
+}
+.ic-color {
+  color: #f9a91a;
 }
 .collapsible-body p {
   padding: 1rem;
@@ -153,4 +166,16 @@ nav {
   border-left: 0.5px;
   border-right: 0.5px;
   box-shadow: 0 1px 1px 0 rgba(0,0,0,0.14);
+}
+.img-profile {
+  width: 30vh;
+  height: 30vh;
+}
+.name {
+  color: #f9a91a;
+}
+.years {
+  color: #3e3f40;
+  font-size: 16px;
+  margin-bottom: -10px;
 }
