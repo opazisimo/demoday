@@ -145,3 +145,14 @@ nav {
   font-size: 1.08rem;
   padding-top: 2%;
 }
+.btn:hover {
+  background-color: #333;
+  border: 1px solid #f9a91a;
+}
+.yellow-btn {
+  background-color: #f9a91a;
+  color: #fff;
+}
+.dark {
+  background-color: #333;
+}
